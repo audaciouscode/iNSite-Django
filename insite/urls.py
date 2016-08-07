@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^data/', include('passive_data_kit.urls')),
+    url(r'^maps/', include('map_app.urls')),
     url(r'^', include('website.urls')),
 ]

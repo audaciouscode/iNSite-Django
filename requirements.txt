@@ -1,0 +1,13 @@
+Django==1.9.6
+argparse==1.2.1
+arrow==0.7.0
+dj-database-url==0.4.1
+gunicorn==19.6.0
+lockfile==0.12.2
+psycopg2==2.6.1
+python-dateutil==2.5.3
+pytz==2016.4
+six==1.10.0
+whitenoise==3.2
+wsgiref==0.1.2
+xkcdpass==1.6.4
